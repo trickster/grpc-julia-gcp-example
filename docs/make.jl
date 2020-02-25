@@ -1,7 +1,7 @@
-using Documenter, MyPkg2
+using Documenter, GoogleLanguageService 
 
 makedocs(;
-    modules=[MyPkg2],
+    modules=[GoogleLanguageService],
     format=Documenter.HTML(),
     pages=[
         "Home" => "index.md",
