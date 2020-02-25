@@ -6,12 +6,12 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
-    repo="https://github.com/sivakon/MyPkg2.jl/blob/{commit}{path}#L{line}",
-    sitename="MyPkg2.jl",
+    repo="https://github.com/sivakon/grpc-julia-gcp-example/blob/{commit}{path}#L{line}",
+    sitename="Google Language Service",
     authors="Sivaram Konanki",
     assets=String[],
 )
 
 deploydocs(;
-    repo="github.com/sivakon/MyPkg2.jl",
+    repo="github.com/sivakon/grpc-julia-gcp-example",
 )
